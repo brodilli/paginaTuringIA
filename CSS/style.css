@@ -1,0 +1,132 @@
+body{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+#titulo { 
+    display:inline; 
+}
+nav{
+    position: absolute;
+    font-family: arial;
+    top: 20px;
+    left: 200px;
+    color: white;
+    padding-right: 40px;
+    
+}
+.menu a { 
+    color: white;
+    font-size: 18pt; 
+    font-family: arial;
+    text-decoration:none; 
+    padding-right: 10px;
+ 
+
+}
+.cabecera{
+    /* background-image: url(../img/fondo.png); */
+    display: block;
+    top: 0%;
+  left: 0%;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+.fondocss {
+    width: 100%;
+    
+    }
+.elements{
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;
+    
+    
+}
+/* #video-backround{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+} */
+header {
+    height: 100vh;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-attachment: fixed;
+}
+.quehacemos{
+    font-family: arial;
+    text-decoration:none; 
+}
+.quehacemos a{
+    color: black;
+    font-family: arial;
+    text-decoration:none; 
+}
+.texto{
+    position: absolute;
+    font-family: arial;
+    top: 10px;
+    left: 50px;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: .2px black;
+}
+.slider{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+   ;
+    
+}
+.imagenes{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+.elementosFooter{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+  
+}
+.footer{
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-family: arial;
+    text-decoration:none; 
+}
+
+.direccion{
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-family: arial;
+    text-decoration:none; 
+}
+.hacemos a{
+    color: white;
+    font-family: arial;
+    text-decoration:none; 
+}
