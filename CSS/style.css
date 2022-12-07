@@ -1,11 +1,22 @@
+* {
+    margin: 0;
+
+
+}
+
 body {
+
     overflow-x: hidden;
 }
+
+
 
 h2 {
     color: rgb(70, 113, 229);
     font-family: arial;
     text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .contenido {
@@ -92,7 +103,7 @@ h2 {
 .nav {
     top: 0px;
     margin-top: 0%;
-    padding-top: 0%;
+    padding-top: 20px;
     padding-left: 45%;
 }
 
@@ -117,6 +128,7 @@ h2 {
 }
 
 .titulo {
+    padding-top: 10px;
     display: flex;
     padding-left: 100px;
 }
@@ -147,7 +159,7 @@ h2 {
 
     position: absolute;
     font-family: arial;
-    top: 20px;
+    top: 10px;
     left: 70%;
     color: white;
 
@@ -170,6 +182,8 @@ header {
 }
 
 .quehacemos {
+    padding-top: 10px;
+    margin-bottom: 20px;
     font-family: arial;
     text-decoration: none;
 }
@@ -214,6 +228,7 @@ header {
     justify-content: center;
 }
 
+
 .imagenes {
     width: 70%;
     height: 70%;
@@ -232,6 +247,7 @@ header {
 }
 
 .footer {
+
     background-color: rgb(70, 113, 229);
     padding: 10px;
     text-align: center;
@@ -253,6 +269,7 @@ header {
 }
 
 .hacemos a {
+
     color: white;
     font-family: arial;
     text-decoration: none;
