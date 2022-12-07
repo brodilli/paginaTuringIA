@@ -99,16 +99,14 @@ h2 {
 }
 
 .nav {
-    -webkit-text-stroke: 0.4px black;
+
     top: 0px;
     margin-top: 0%;
     padding-top: 20px;
     padding-left: 45%;
 }
 
-.nav a {
-    -webkit-text-stroke: 0.4px black;
-}
+
 
 .nosotrosNav {
     padding-top: calc(1% + 100px);
@@ -157,13 +155,9 @@ h2 {
     padding-left: 100px;
 }
 
-.titulo h1 {
-    -webkit-text-stroke: 0.4px black;
-}
+.titulo h1 {}
 
-.titulo a {
-    -webkit-text-stroke: 0.4px black;
-}
+.titulo a {}
 
 .titulo a:hover {
     text-decoration: none;
@@ -214,7 +208,7 @@ h2 {
 
 
 
-/* quienes somos */
+/* ofrecemos */
 .quienes_somos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -251,7 +245,6 @@ h2 {
     left: 30px;
     color: white;
     text-align: center;
-    -webkit-text-stroke: 0.3px black;
 }
 
 /* nuestras metodologias  */
