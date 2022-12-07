@@ -99,10 +99,35 @@ h2 {
 }
 
 .nav {
+    -webkit-text-stroke: 0.4px black;
     top: 0px;
     margin-top: 0%;
     padding-top: 20px;
     padding-left: 45%;
+}
+
+.nav a {
+    -webkit-text-stroke: 0.4px black;
+}
+
+.nosotrosNav {
+    padding-top: calc(1% + 100px);
+    padding-left: calc(1% + 100px);
+    left: 10px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.nosotrosNav h1 {
+    font-size: 20pt;
+}
+
+.nosotrosNav h2 {
+    color: white;
+    font-size: 18pt;
+    font-family: arial;
+    text-decoration: none;
+    padding-right: 10px;
 }
 
 .menu a {
@@ -126,9 +151,18 @@ h2 {
 }
 
 .titulo {
+
     padding-top: 10px;
     display: flex;
     padding-left: 100px;
+}
+
+.titulo h1 {
+    -webkit-text-stroke: 0.4px black;
+}
+
+.titulo a {
+    -webkit-text-stroke: 0.4px black;
 }
 
 .titulo a:hover {
@@ -137,11 +171,19 @@ h2 {
 }
 
 .cabecera {
+
     margin: auto;
     display: block;
     height: 400px;
     width: 100%;
     overflow: hidden;
+}
+
+.fondo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .fondocss {
@@ -168,29 +210,34 @@ h2 {
     object-fit: cover;
     z-index: -1;
 } */
-header {
-    height: 100vh;
-    background-image: url(../img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
-.quehacemos {
+
+.quienes_somos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
     padding-top: 10px;
     margin-bottom: 20px;
     font-family: arial;
     text-decoration: none;
 }
 
-.quehacemos a {
+/* quienes somos */
+.quienes_somos a {
     color: rgb(70, 113, 229);
     font-family: arial;
     text-decoration: none;
 }
 
-.quehacemos a:hover {
+.quienes_somos a:hover {
     text-decoration: underline;
+}
+
+.quienes_somos_imagen img {
+    width: 90%;
+    height: 90%;
+    border-radius: 5%;
+    object-fit: cover;
 }
 
 .texto {
@@ -203,6 +250,36 @@ header {
     color: white;
     text-align: center;
     -webkit-text-stroke: 0.3px black;
+}
+
+/* nuestras metodologias  */
+.metodologias {
+    display: block;
+    text-align: center;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.metodologias_texto {
+    width: 90%;
+    height: 100%;
+}
+
+.metodologias_imagenes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.5fr 0.5fr;
+    padding-left: 10px;
+
+
+}
+
+.metodologias_imagenes img {
+    width: 100%;
+    height: 100%;
+
+
+
+
 }
 
 .galeria {
